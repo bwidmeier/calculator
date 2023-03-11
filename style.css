@@ -1,0 +1,46 @@
+body {
+    display: flex;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: solid;
+    padding: 12px;
+    background-color: lightslategray;
+    border-radius: 4px;
+}
+
+button {
+    min-width: 80px;
+    min-height: 80px;
+    border-radius: 4px;
+    font-size: 40px;
+}
+
+button.number {
+    background-color: darkslateblue;
+}
+
+button.operation {
+    background-color: orange;
+}
+
+.row {
+    display: flex;
+    gap: 8px;
+}
+
+#display {
+    border-style: solid;
+    text-align: right;
+    padding: 4px;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 40px;
+}
+
+#clear {
+    background-color: firebrick;
+}
